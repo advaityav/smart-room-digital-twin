@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class ESP32Reader : MonoBehaviour
 {
-    SerialPort sp = new SerialPort("/dev/cu.usbserial-310", 115200); 
+    SerialPort sp = new SerialPort("/dev/cu.usbserial-5B151593161", 115200); 
 
     public float ldrValue;
     public float temperature;
